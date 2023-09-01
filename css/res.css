@@ -1,0 +1,138 @@
+@media screen and (max-width:576px){
+    header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    }
+    .banner>img{
+        width: 100%;
+        padding: 15px 0px;
+    }
+    .banner>h1{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .team{
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin: 5px;
+    }
+    .memberText{
+        width:100%;
+        text-align: justify;
+        padding: 10px;
+        
+    }
+    .memberImg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature{
+        flex-direction: column;
+    }
+    .fetureImg>img{
+        width: 100%;
+        
+    }
+    .fetureText{
+        padding-right: 0px;
+        
+    }
+    .colorCard{
+        left: 0;
+        top: -50px;
+        width: 150px;
+        padding: 25px 15px;
+        font-size: 1rem;
+        
+    }
+    .factCard{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:20px;
+       
+    }
+    .group{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .group>img{
+        width: 170px;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:960px){
+    header{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    }
+    .banner>img{
+        width: 100%;
+        padding: 15px 0px;
+    }
+    .team{
+        flex-direction: column-reverse;
+        
+    }
+    .memberImg{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .memberImg>img{
+        width: 100%;
+    }
+    .memberText{
+        width:100%;
+        text-align: justify;
+        padding: 10px;
+        
+    }
+    
+    .feature{
+        flex-direction: column;
+    }
+    .fetureImg>img{
+        width: 100%;
+    }
+    .fetureText{
+        padding-right: 0px;
+        
+    }
+    .colorCard{
+        left: 0;
+    }
+
+    .cardDiv{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .titleText{
+        text-align: center;
+        
+    }
+    .titleText>h3{
+        font-size: 2.2rem;
+        font-weight: 700;
+        color: #131313;
+        border-left: none;
+        border-bottom: 5px solid #FF900E;
+        padding-bottom: 10px;
+    }.factDiv{
+        margin: 10px;
+    }
+    .group{
+        display: grid;
+        padding: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+    

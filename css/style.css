@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.textColor{
+    color: #727272;
+    margin: 10px;
+}
+.colorText{
+    color: #FF900E;
+}
+header{
+    background-color: #fef4e6;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+header>nav{}
+header>nav>ul{
+    display: flex;
+}
+header>nav>ul>li{
+    list-style-type: none;
+    padding: 5px 10px;
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.904);
+}
+.banner{
+    background-color: #fef4e6;
+    padding: 50px;
+    text-align: center;
+    
+
+}
+.banner h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner>img{
+    width: 80%;
+    padding: 30px 50px;
+}
+button{
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.25rem;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+    margin: 20px;
+}
+.team{
+    display: flex;
+   
+    box-sizing: border-box;
+    align-items: center;
+    margin: 80px 20px;
+}
+.memberText{
+    width: 770px;
+    
+    
+}.memberText>h2{
+    font-weight: 600;
+    font-size: 2.8rem;
+}
+.memberImg>img{
+    padding: 10px;
+}
+.feature{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+.fetureText{
+    padding-right: 120px;
+    
+}
+.titleText>h3{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 8px;
+    margin-bottom: 30px;
+}
+.greyText{
+    color: #727272;
+}
+.card{
+    margin-top: 40px;
+    padding: 10px;
+  
+    border-radius: 7px;
+    line-height: 23px;
+    box-shadow: 2px 2px 3px#727272;
+}
+.colorCard{
+    background-color: #FF900E;
+    width: 300px;
+    padding: 50px 30px;
+    border-radius: 7px;
+    color: #fef4e6;
+    text-align: center;
+    font-size: 2rem;
+    margin: auto;
+    position: relative;
+    top: -100px;
+    left: -250px;
+    
+}
+.facts{
+    padding: 20px;
+}
+.facts>h1{
+    font-size: 38px;
+    padding-bottom: 20px;
+}
+.factCard{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.factDiv{
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 20px;
+    border-radius: 7px;
+    width: 160px;
+   
+}
+.factDiv>h2{
+    font-weight: 700;
+    font-size: 38px;
+    padding: 10px 0;
+}
+.partner{
+    text-align: center;
+    margin: 50px 20px;
+}
+.group {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.hide{
+    display: none;
+}
+footer{
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fef4e6;
+}
